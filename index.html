@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Alicia Roggema — Fotografie & Design</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">Laden<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
+        <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="nav-inner">
+            <div class="nav-logo">Alicia Roggema</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Werk</a></li>
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <div class="hero-left">
+                <p class="hero-eyebrow">Mediavormgever</p>
+                <h1 class="hero-title">
+                    <span class="char">A</span><span class="char">l</span><span class="char">i</span><span class="char">c</span><span class="char">i</span><span class="char">a</span>
+                    <br>
+                    <span class="char">R</span><span class="char">o</span><span class="char">g</span><span class="char">g</span><span class="char">e</span><span class="char">m</span><span class="char">a</span>
+                </h1>
+                <p class="hero-subtitle">Fotografie · Video · Grafisch Design</p>
+                <a href="#work" class="hero-btn magnetic">
+                    <span>Bekijk mijn werk</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7h9M7 2.5l4.5 4.5L7 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+            <div class="hero-right">
+                <div class="hero-memoji-wrap">
+                    <img src="images/overige/memoji.png" alt="Alicia Roggema" class="hero-memoji">
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <div class="scroll-line-wrap"><div class="scroll-line"></div></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Scroll-reveal tagline -->
+    <section class="tagline-section">
+        <div class="tagline-wrap">
+            <p class="reveal-text">
+                <span class="rword">Creativiteit</span>
+                <span class="rword">die</span>
+                <span class="rword">spreekt.</span>
+                <span class="rword">Beelden</span>
+                <span class="rword">die</span>
+                <span class="rword">blijven.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Statement — Apple "Pro." style dark section -->
+    <section class="statement-section">
+        <div class="statement-sticky">
+            <div class="st-word">Video bewerking.</div>
+            <div class="st-word">Foto bewerking.</div>
+            <div class="st-word">Audio visueel.</div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         PORTFOLIO
+         Voeg hier je projecten toe.
+         Kopieer een .project-card blok voor
+         elk nieuw project dat je wilt tonen.
+         ═══════════════════════════════════════ -->
+    <section id="work" class="portfolio-section">
+        <div class="portfolio-inner">
+
+            <span class="section-eyebrow fade-up">Portfolio</span>
+            <h2 class="section-title fade-up">Mijn werk.</h2>
+
+            <!-- Categorie-filters -->
+            <div class="portfolio-tabs fade-up">
+                <button class="tab active" data-filter="all">Alles</button>
+                <button class="tab" data-filter="fotografie">📷 Fotografie</button>
+                <button class="tab" data-filter="video">🎬 Video</button>
+                <button class="tab" data-filter="design">🎨 Design</button>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- ───────────────────────────────────────────
+                     FOTOGRAFIE — project 1
+                     Verander: src, alt, titel, beschrijving, jaar
+                     ─────────────────────────────────────────── -->
+                <div class="project-card fade-up" data-category="fotografie" data-id="foto-1">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-foto">📷</div>
+                        <img src="images/Greymenband/IMG_3183.png" alt="" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Fotografie</span>
+                        <h3 class="project-title">Greymenband — Groningen</h3>
+                        <p class="project-desc">Ik fotografeerde een live optreden van de band Greyman voor Bubo. De foto's zijn bewerkt en klaar voor social media.</p>
+                        <span class="project-year">2025 - 2026</span>
+                    </div>
+                </div>
+
+                <!-- FOTOGRAFIE — project 2 -->
+                <div class="project-card fade-up" data-category="fotografie" data-id="foto-2">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-foto">📷</div>
+                        <img src="images/Plaatsenfotografioe/uitzicht.jpeg" alt="" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Fotografie</span>
+                        <h3 class="project-title">Reizen — Europa</h3>
+                        <p class="project-desc">Ik fotografeerde mooie plekken in Europa. Ik lette op goed licht en eenvoudige composities.</p>
+                        <span class="project-year">2023 - heden</span>
+                    </div>
+                </div>
+
+                <!-- FOTOGRAFIE — project 3 -->
+                <div class="project-card fade-up" data-category="fotografie" data-id="foto-3">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-foto">📷</div>
+                        <img src="images/productenfotografie/camera.png" alt="" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Fotografie</span>
+                        <h3 class="project-title">Producten — Groningen</h3>
+                        <p class="project-desc">Ik fotografeerde producten voor school met professionele setup. Elk product is goed belicht en bewerkt.</p>
+                        <span class="project-year">2022 - 2023</span>
+                    </div>
+                </div>
+
+                <!-- FOTOGRAFIE — project 4 -->
+                <div class="project-card fade-up" data-category="fotografie" data-id="foto-4">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-foto">📷</div>
+                        <img src="images/dagelijksefotografie/milo.jpeg" alt="" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Fotografie</span>
+                        <h3 class="project-title">Dagelijkse momenten — Nederland</h3>
+                        <p class="project-desc">Dit is een verzameling van foto's die ik mooi vind. Ik experimenteerde met verschillende stijlen en momenten.</p>
+                        <span class="project-year">2023 - heden</span>
+                    </div>
+                </div>
+
+
+
+                <!-- VIDEO — project 2 -->
+                <div class="project-card fade-up" data-category="video" data-id="video-2">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-video">🎬</div>
+                        <img src="images/Greymenband/GreyMenThumbnail.png" alt="Documentaire" class="project-img">
+                        <div class="play-badge">▶</div>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Video</span>
+                        <h3 class="project-title">Promo Video — Greymenband</h3>
+                        <p class="project-desc">Ik monteerde mee voor een promotievideo voor de band Greyman. De video is klaar voor social media.</p>
+                        <span class="project-year">2025 - 2026</span>
+                    </div>
+                </div>
+
+                <!-- VIDEO — project 3 -->
+                <div class="project-card fade-up" data-category="video" data-id="video-3">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-video">🎬</div>
+                        <img src="images/overige/thumbnailchihiro.png" alt="Promo video" class="project-img">
+                        <div class="play-badge">▶</div>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Video</span>
+                        <h3 class="project-title">Videoclip — CHIHIRO</h3>
+                        <p class="project-desc">Ik maakte een videoclip met klasgenoten met drone en iPhone beelden. We monteerden alles in Premiere Pro.</p>
+                        <span class="project-year">2024 - 2025</span>
+                    </div>
+                </div>
+
+
+                
+
+            <!-- ───────────────────────────────────────────
+                     DESIGN — project 1
+                     ─────────────────────────────────────────── -->
+                <div class="project-card fade-up" data-category="design" data-id="design-1">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-design">🎨</div>
+                        <img src="images/groengenieten/1074979_OMYB9M1.png" alt="Logo ontwerp" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Grafisch Design</span>
+                        <h3 class="project-title">Brochure — Groen genieten</h3>
+                        <p class="project-desc">Ik maakte een ontwerp voor "Groen Genieten". Ik begon met een moodboard en maakte verschillende versies.</p>
+                        <span class="project-year">2023 - 2024</span>
+                    </div>
+                </div>
+
+                <!-- DESIGN — project 2 -->
+                <div class="project-card fade-up" data-category="design" data-id="design-2">
+                    <div class="project-img-wrap">
+                        <div class="project-placeholder p-design">🎨</div>
+                        <img src="images/ecobite/ecobite1.png" alt="Logo ontwerp" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-cat">Grafisch Design</span>
+                        <h3 class="project-title">Logo — Eco Bite</h3>
+                        <p class="project-desc">Ik ontwierp een logo en visuele stijl voor het merk "Eco Bite". Alles past samen in één stijl.</p>
+                        <span class="project-year">2023 - 2024</span>
+                    </div>
+                </div>
+
+                <!-- ───────────────────────────────────────────
+                     NIEUW PROJECT TOEVOEGEN?
+                     Kopieer een van bovenstaande blokken en
+                     pas data-category aan: fotografie / design / video
+                     ─────────────────────────────────────────── -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bento -->
+    <section class="bento-section">
+        <div class="bento-inner">
+            <div class="bento-card bento-foto fade-up">
+                <span class="bento-icon">📷</span>
+                <h3 class="bento-title">Fotografie</h3>
+                <p class="bento-desc">Van concerten tot landschappen ik leg elk moment vast met oog voor licht en compositie.</p>
+                <div class="bento-tools">Sony ZV-E10 · Lightroom · Photoshop</div>
+            </div>
+            <div class="bento-card bento-video fade-up">
+                <span class="bento-icon">🎬</span>
+                <h3 class="bento-title">Video</h3>
+                <p class="bento-desc">Promotievideo's en videoclips van opname tot montage, klaar voor elk platform.</p>
+                <div class="bento-tools">Premiere Pro · After Effects</div>
+            </div>
+            <div class="bento-card bento-design fade-up">
+                <span class="bento-icon">🎨</span>
+                <h3 class="bento-title">Grafisch Design</h3>
+                <p class="bento-desc">Logo's, brochures en visuele identiteiten ontworpen met gevoel voor merk en typografie.</p>
+                <div class="bento-tools">Illustrator · InDesign</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section">
+        <div class="about-inner">
+            <div class="about-visual fade-up">
+                <div class="about-img-wrap">
+                    <!-- Vervang images/alicia.jpg met jouw eigen foto -->
+                    <img src="images/overige/me.jpeg" alt="Alicia Roggema" class="about-img"
+                         onerror="this.style.display='none';document.getElementById('img-placeholder').style.display='flex'">
+                    <div class="about-img-placeholder" id="img-placeholder">AR</div>
+                </div>
+                <div class="floating-tag tag-a"><span>📷</span> Fotografie</div>
+                <div class="floating-tag tag-b"><span>🎬</span> Video</div>
+            </div>
+            <div class="about-text">
+                <span class="section-eyebrow fade-up">Over mij</span>
+                <h2 class="about-heading fade-up">Creatief<br>van nature.</h2>
+                <p class="about-p fade-up">Mijn naam is Alicia, een 22-jarige student mediavormgeving uit Groningen. Ik heb een passie voor fotografie, videobewerking, grafisch ontwerp en kunst.</p>
+                <p class="about-p fade-up">Of ik nu een logo ontwerp, een digitale illustratie maak, een video bewerk of een foto schiet ik geniet ervan om verschillende opdrachten aan te pakken.</p>
+                <div class="skills fade-up">
+                    <div class="skill">Fotografie</div>
+                    <div class="skill">Video</div>
+                    <div class="skill">Design</div>
+                    <div class="skill">Adobe Programma's</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact-inner">
+            <span class="section-eyebrow fade-up">Contact</span>
+            <h2 class="contact-heading fade-up">Laten we<br>samenwerken.</h2>
+            <p class="contact-sub fade-up">Heb je een project in gedachten? Ik hoor graag van je.</p>
+            <div class="contact-links">
+                <a href="mailto:a.dejonge05@student.alfa-college.nl" class="contact-card fade-up magnetic">
+                    <div class="contact-card-icon">✉️</div>
+                    <div>
+                        <div class="contact-card-label">Email</div>
+                        <div class="contact-card-value">Stuur een bericht →</div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/aliciaroggema" target="_blank" class="contact-card fade-up magnetic">
+                    <div class="contact-card-icon">💼</div>
+                    <div>
+                        <div class="contact-card-label">LinkedIn</div>
+                        <div class="contact-card-value">Bekijk profiel →</div>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/soulszn._" target="_blank" class="contact-card fade-up magnetic">
+                    <div class="contact-card-icon">📸</div>
+                    <div>
+                        <div class="contact-card-label">Fotografie Instagram</div>
+                        <div class="contact-card-value">@soulszn._ →</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <span class="footer-logo">Alicia Roggema</span>
+            <span class="footer-copy">© 2026 · Gemaakt met passie in Groningen</span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
