@@ -603,5 +603,9 @@ footer { padding: 36px 40px; border-top: 1px solid var(--separator); background:
     .about-inner { grid-template-columns: 1fr; gap: 48px; }
     .tag-a,.tag-b { display: none; }
     .footer-inner { flex-direction: column; gap: 12px; text-align: center; }
+    .hero-scroll-hint {
+    left: 50%;
+    transform: translateX(-50%);
+}
 }
 
