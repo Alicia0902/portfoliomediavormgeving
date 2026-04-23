@@ -38,13 +38,13 @@ const PROJECTS = {
     tools: ['Sony ZV-E10', 'Adobe Lightroom', 'Adobe Photoshop', 'Apple iPhone 16 Pro Max'],
     // Voeg hieronder de afbeeldingen toe die op de projectpagina verschijnen.
     // Zet foto's in images/ en vul de bestandsnaam in.
-    images: [
-      'images/greymenband/img_2737.png',
-      'images/greymenband/img_2755.png',
-      'images/greymenband/img_2865.png',
-      'images/greymenband/img_3166.png',
-      'images/greymenband/_dsc0128.png',
-    ],
+   images: [
+  'images/greymenband/IMG_2737.png',
+  'images/greymenband/IMG_2755.png',
+  'images/greymenband/IMG_2865.png',
+  'images/greymenband/IMG_3166.png',
+  'images/greymenband/_DSC0128.png',
+],
   },
 
   'foto-2': {
@@ -201,7 +201,7 @@ const PROJECTS = {
     categoryLabel: 'Video',
     year:          '2025 - 2026',
     location:      'Groningen, NL',
-    cover:         'images/Greymenband/GreyMenThumbnail.png',
+    cover:         'images/greymenband/GreyMenThumbnail.png',
     coverIcon:     '🎬',
     coverGradient: 'p-video',
     description: `
