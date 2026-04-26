@@ -175,6 +175,27 @@ const PROJECTS = {
     ],
   },
 
+    'design-3': {
+    title:         'Posters — Mazda MX-5',
+    category:      'design',
+    categoryLabel: 'Grafisch Design',
+    year:          '2026',
+    location:      'Groningen, NL',
+    cover:         'images/posters/magazine page Mazda.png',
+    coverIcon:     '🎨',
+    coverGradient: 'p-design',
+    description: `
+      Een driedelige poster die de iconische roadsters in drie stijlen presenteert: één gestileerde Nederlandse benadering en één illustratieve variant met getextureerde effecten. Focus op typografie, compositie en het balans tussen tekst en beeld..
+    `,
+    video: '',
+    tools: ['Adobe InDesign', 'Adobe Illustrator', 'Canva'],
+    images: [
+      'images/posters/magazine page Mazda.png',
+      'images/posters/mazda.jpg',
+      'images/posters/illustration.jpeg',
+    ],
+  },
+
   /* ── VIDEO ──────────────────────────────────────────────── */
 
   'video-3': {
