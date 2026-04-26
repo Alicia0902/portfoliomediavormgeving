@@ -188,7 +188,7 @@ const PROJECTS = {
       Een driedelige poster die de iconische roadsters in drie stijlen presenteert: één gestileerde Nederlandse benadering en één illustratieve variant met getextureerde effecten. Focus op typografie, compositie en het balans tussen tekst en beeld..
     `,
     video: '',
-    tools: ['Adobe InDesign', 'Adobe Illustrator', 'Canva'],
+    tools: ['Adobe Illustrator', 'Canva'],
     images: [
       'images/posters/magazine page Mazda.png',
       'images/posters/mazda.jpg',
