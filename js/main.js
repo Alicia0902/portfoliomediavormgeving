@@ -169,12 +169,17 @@ document.querySelectorAll('.project-card[data-id]').forEach(card => {
 
 
 /* ── Fade-up reveals ────────────────────────── */
-document.querySelectorAll('.fade-up').forEach((el, i) => {
-    ScrollTrigger.create({
-        trigger: el, start: 'top 88%', once: true,
-        onEnter() { setTimeout(() => el.classList.add('visible'), (i % 5) * 80); }
+const fadeEls = Array.from(document.querySelectorAll('.fade-up'));
+const fadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const i = fadeEls.indexOf(entry.target);
+        setTimeout(() => entry.target.classList.add('visible'), (i % 5) * 80);
+        fadeObserver.unobserve(entry.target);
     });
-});
+}, { threshold: 0.08, rootMargin: '0px 0px -4% 0px' });
+
+fadeEls.forEach(el => fadeObserver.observe(el));
 
 /* ── About image parallax ───────────────────── */
 gsap.to('.about-img-wrap', {
