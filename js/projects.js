@@ -44,6 +44,7 @@ const PROJECTS = {
   'images/greymenband/IMG_2865.png',
   'images/greymenband/IMG_3166.png',
   'images/greymenband/_DSC0128.png',
+  'images/greymenband/_DSC0367.png',
 ],
   },
 
