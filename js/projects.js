@@ -188,7 +188,7 @@ const PROJECTS = {
     description: `
       Voor de BuBo Expo ontwierp ik de huisstijl van dit jaar. Met ProCreate, Canva en Illustrator maakte ik ontwerpen waarvan de lijnen geïnspireerd zijn op een conceptstijl die klasgenoten hadden gemaakt.
 
-      Bij de definitieve presentatie won mijn design — dit werd vervolgens gebruikt voor de projectborden, flyers en meer. Het was een bijzonder project omdat het resultaat echt zichtbaar was tijdens de expo.
+      Bij de definitieve presentatie won mijn design dit werd vervolgens gebruikt voor de projectborden, flyers en meer. Het was een bijzonder project omdat het resultaat echt zichtbaar was tijdens de expo.
 
       Let op: namen en gezichten op de foto's zijn geblurred in verband met de privacywetgeving.
     `,
