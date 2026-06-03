@@ -176,6 +176,38 @@ const PROJECTS = {
     ],
   },
 
+  'design-4': {
+    title:         'Huisstijl — BuBo Expo',
+    category:      'design',
+    categoryLabel: 'Grafisch Design',
+    year:          '2025 - 2026',
+    location:      'Groningen, NL',
+    cover:         'images/buboexpo/Poster.png',
+    coverIcon:     '🎨',
+    coverGradient: 'p-design',
+    description: `
+      Voor de BuBo Expo ontwierp ik de huisstijl van dit jaar. Met ProCreate, Canva en Illustrator maakte ik ontwerpen waarvan de lijnen geïnspireerd zijn op een conceptstijl die klasgenoten hadden gemaakt.
+
+      Bij de definitieve presentatie won mijn design — dit werd vervolgens gebruikt voor de projectborden, flyers en meer. Het was een bijzonder project omdat het resultaat echt zichtbaar was tijdens de expo.
+    `,
+    video: '',
+    tools: ['Procreate', 'Canva', 'Adobe Illustrator'],
+    images: [
+      'images/buboexpo/Poster.png',
+      'images/buboexpo/Flyer.png',
+      'images/buboexpo/bubo flyer1.png',
+      'images/buboexpo/Story template.png',
+      'images/buboexpo/IMG_9314.jpeg',
+      'images/buboexpo/IMG_9317.jpeg',
+      'images/buboexpo/IMG_9320.jpeg',
+      'images/buboexpo/IMG_9321.jpeg',
+      'images/buboexpo/IMG_9325.jpeg',
+      'images/buboexpo/IMG_9329.jpeg',
+      'images/buboexpo/IMG_9330.jpeg',
+      'images/buboexpo/IMG_9331.jpeg',
+    ],
+  },
+
     'design-3': {
     title:         'Posters — Mazda MX-5',
     category:      'design',
